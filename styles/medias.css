@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 992px){
+    .just-big-screen{
+        display: block;
+    }
+
     #menu{
         display: none;
     }
@@ -34,5 +38,35 @@
         padding: 13px;
         font-size: 0.8em;
         border-radius: 30px;
+    }
+
+    .main-container{
+        display: flex;
+        justify-content: center;
+        padding: 100px 10vw;
+        background-color:#23272A;
+    }
+
+    .main-container-text{
+        max-width: 500px;
+        min-width: 400px;
+    }
+
+    .main-container-text > h1{
+        font-size: 2.4em;
+    }
+
+    #download-btn{
+        width: 200px;
+    }
+
+    #btn-and-win7{
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    #btn-and-win7 > p {
+        padding-left: 20px;
     }
 }

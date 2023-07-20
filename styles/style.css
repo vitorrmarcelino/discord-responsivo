@@ -6,6 +6,10 @@
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+.just-big-screen{
+    display: none;
+}
+
 header{
     background-color: #23272A;
     height: 70px;
@@ -116,7 +120,7 @@ header > div > a:hover{
     cursor: pointer;
 }
 
-.main-container{
+.main-container-text{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,18 +129,24 @@ header > div > a:hover{
     color: white;
 }
 
-.main-container > h1{
+.main-container-text > h1{
     max-width: 80vw;
     font-weight: 900;
     line-height: 1em;
 }
 
-.main-container > p{
+.main-container-text > p{
     max-width: 80vw;
     font-size: 0.9em;
     text-align: justify;
     line-height: 1.5em;
     padding: 25px 0;
+}
+
+.main-container-text > div > p{
+    padding-top: 15px;
+    font-size: 0.9em;
+    text-align: center;
 }
 
 #download-btn{
