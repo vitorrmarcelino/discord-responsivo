@@ -112,3 +112,13 @@ header a:hover{
 #closemenu{
     cursor: pointer;
 }
+
+
+
+
+
+#painelmenu {
+    /* ... Outras propriedades existentes ... */
+    right: -350px;
+    transition: right 0.3s ease-in-out;
+  }
