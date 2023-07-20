@@ -52,15 +52,15 @@ header a:hover{
 }
 
 #painelmenu{
-    display: none;
     background-color: rgb(246, 246, 246);
-    right: 0;
+    right: -350px;
     top: 0;
     bottom: 0;
     position: fixed;
     width: 350px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    transition: all .2s ease-in-out;
 }
 
 #top-menu{
@@ -112,13 +112,3 @@ header a:hover{
 #closemenu{
     cursor: pointer;
 }
-
-
-
-
-
-#painelmenu {
-    /* ... Outras propriedades existentes ... */
-    right: -350px;
-    transition: right 0.3s ease-in-out;
-  }
