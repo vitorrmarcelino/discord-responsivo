@@ -50,6 +50,7 @@
     .main-container-text{
         max-width: 500px;
         min-width: 400px;
+        padding-left: 0;
     }
 
     .main-container-text > h1{
